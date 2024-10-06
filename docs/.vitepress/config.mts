@@ -176,6 +176,7 @@ function sidebarJava(){
         { text: 'Java_day02', link: 'JavaDay9/2_day_java' },
         { text: 'Java_day03', link: 'JavaDay9/3_day_java' },
         { text: 'Java_day04', link: 'JavaDay9/4_day_java' },
+        { text: 'Java_day05', link: 'JavaDay9/5_day_java' },
       ]
     },
     {
