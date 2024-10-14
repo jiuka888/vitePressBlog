@@ -83,7 +83,8 @@ export default defineConfig ({
       lazyLoading: true,
       
     }
-  }
+  },
+
 })
 
 //顶部的导航栏
@@ -162,7 +163,8 @@ function sidebarExamples(){
         { text: 'Markdown Examples', link: 'markdown-examples' },
         { text: 'Runtime API Examples', link: 'api-examples' }
       ]
-    }
+    },
+
   ]
 }
 //侧边栏菜单/java
@@ -170,7 +172,7 @@ function sidebarJava(){
   return [
     {
       text: '9天学习Java',
-      collapsed: false,
+      collapsed: true,
       items: [
         { text: 'Java_day01', link: 'JavaDay9/1_day_java' },
         { text: 'Java_day02', link: 'JavaDay9/2_day_java' },
@@ -179,6 +181,8 @@ function sidebarJava(){
         { text: 'Java_day05', link: 'JavaDay9/5_day_java' },
         { text: 'Java_day06', link: 'JavaDay9/6_day_java' },
         { text: 'Java_day07', link: 'JavaDay9/7_day_java' },
+        { text: 'Java_day08', link: 'JavaDay9/8_day_java' },
+        { text: 'Java_day09', link: 'JavaDay9/9_day_java' },
       ]
     },
     {
@@ -535,6 +539,52 @@ function sidebarJava(){
             { text: '数据库', link: 'reference/数据库' },
             { text: '常用框架', link: 'reference/常用框架' },
 
+          ]
+        },
+        {
+          text: 'Java面试',
+          collapsed: false,
+          items: [
+            { text: '最常见208道面试题汇总', link: 'JavaInterview/1_2020_java' },
+            { text: 'Java基础面试题91道', link: 'JavaInterview/2_java_basics_91' },
+            { text: 'Java集合面试题52道', link: 'JavaInterview/3_java_container_52' },
+            { text: '多线程面试59题', link: 'JavaInterview/4_java_concurrency_59' },
+            { text: 'Java并发编程面试题123道', link: 'JavaInterview/5_java_concurrency_123' },
+            { text: 'JVM常见面试题解析', link: 'JavaInterview/6_JVM' },
+            { text: 'JVM面试题51道', link: 'JavaInterview/7_JVM_51' },
+            { text: 'Java异常面试题33道', link: 'JavaInterview/8_java_exception_33' },
+            { text: 'JavaIO面试题35道', link: 'JavaInterview/9_java_io_35' },
+            { text: 'Netty面试题20道', link: 'JavaInterview/10_java_io_20' },
+            { text: 'Java网络编程面试题47道', link: 'JavaInterview/11_java_web_47' },
+            { text: '设计模式面试题14道', link: 'JavaInterview/12_OO_14' },
+            { text: 'Spring面试题69道', link: 'JavaInterview/13_spring_69' },
+            { text: 'Spring面试题75道', link: 'JavaInterview/14_spring_75' },
+            { text: 'SpringMVC面试题29道', link: 'JavaInterview/15_springmvc_29' },
+            { text: 'SpringBoot面试题30道', link: 'JavaInterview/16_springboot_30' },
+            { text: 'SpringBoot面试题44道', link: 'JavaInterview/17_springboot_44' },
+            { text: 'SpringCloud面试题49道', link: 'JavaInterview/18_springcloud_49' },
+            { text: 'Dubbo面试题47道', link: 'JavaInterview/19_dubbo_47' },
+            { text: 'Zookeeper面试题20道', link: 'JavaInterview/20_zoo_keeper_20' },
+            { text: 'Zookeeper面试题28道', link: 'JavaInterview/21_zoo_keeper_28' },
+            { text: 'Zookeeper面试题', link: 'JavaInterview/22_zoo_keeper' },
+            { text: '23_Memcache 面试题  23道', link: 'JavaInterview/23_Memcache_23' },
+            { text: '24_RabbitMQ面试题 22道', link: 'JavaInterview/24_RabbitMQ_22' },
+            { text: '25_RabbitMQ 补充 6道', link: 'JavaInterview/25_RabbitMQ_6' },
+            { text: '26_Kafka知识汇总 18道', link: 'JavaInterview/26_kafka_18' },
+            { text: '27_Nginx面试题 23道', link: 'JavaInterview/27_nginx_23' },
+            { text: '28_Tomcat面试题 14道', link: 'JavaInterview/28_tomcat_14' },
+            { text: '29_Redis面试题  42道', link: 'JavaInterview/29_redis_42' },
+            { text: '30_Redis面试题 70道', link: 'JavaInterview/30_redis_70' },
+            { text: '31_Redis面试题（含答案）', link: 'JavaInterview/31_redis_50' },
+            { text: '32_MySQL高频面试题 10道', link: 'JavaInterview/32_mysql_10' },
+            { text: '33_MySQL面试题 40道', link: 'JavaInterview/33_mysql_40' },
+            { text: '34_MySQL面试题（含答案）', link: 'JavaInterview/34_mysql_55' },
+            { text: '35_MyBatis面试题 37道', link: 'JavaInterview/35_MyBatis_37' },
+            { text: '36_Mybatis面试题（含答案）', link: 'JavaInterview/36_Mybatis_10' },
+            { text: '37_ElasticSearch面试题 30道', link: 'JavaInterview/37_ElasticSearch_30' },
+            { text: '38_大数据面试题 100道', link: 'JavaInterview/38_big_data_100' },
+            { text: '39_Linux面试题 50道', link: 'JavaInterview/39_Linux_50' },
+            { text: '40_Git常用命令面试题 60道', link: 'JavaInterview/40_git_60' },
           ]
         },
         // {
